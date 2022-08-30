@@ -5,13 +5,16 @@ import Search from './pages/search/Search.js';
 import Create from './pages/create/Create.js';
 import Navbar from './components/navbar/Navbar';
 
+
 import './App.css'
+import ThemeSelector from './components/themeSelector/ThemeSelector';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Navbar/>
+      <ThemeSelector/>
         <Switch>
           <Route exact path="/">
             <Home />
