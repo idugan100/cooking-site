@@ -10,7 +10,7 @@ export default function Details() {
   
 
   return (
-    <div className='recipie'>
+    <div className='recipe'>
     {isPending && <p className='loading'>Loading...</p>}
     {error && <p className='error'>{error}</p>}
     {recipie &&(
