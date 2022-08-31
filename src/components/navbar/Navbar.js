@@ -7,7 +7,7 @@ import {useTheme} from '../../hooks/useTheme.js'
 import './Navbar.css'
 
 export default function Navbar() {
-  const {color,changeColor}=useTheme();
+  const {color}=useTheme();
 
 
   return (
